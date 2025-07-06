@@ -1,0 +1,28 @@
+.convet {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 10px;
+    padding: 30px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.inpt,
+.seke {
+    background-color: aquamarine;
+    border-radius: 30px;
+    border: none;
+}
+
+.but {
+    background-color: bisque;
+    border: none;
+    border-radius: 20px;
+}
+
+.but:hover {
+    background-color: transparent;
+    border: 1px solid darkblue;
+    transition-duration: 0.2s;
+}
